@@ -1,0 +1,21 @@
+.row2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 15px;
+}
+.pokemon-buscador button[type='submit'] {
+  width: 100%;
+  background-color: #7066e0 !important;
+  border: 1px solid #7066e0 !important;
+  margin-top: 15px;
+  color: #fff !important;
+}
+.pokemon-buscador #resultado {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: center;
+  max-width: 80%;
+  margin: 40px auto;
+}
